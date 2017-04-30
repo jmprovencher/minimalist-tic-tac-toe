@@ -14,6 +14,9 @@
 		E5EEDA1A1EB6768900881394 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E5EEDA181EB6768900881394 /* LaunchScreen.storyboard */; };
 		E5EEDA251EB6768900881394 /* minimalist_tic_tac_toeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5EEDA241EB6768900881394 /* minimalist_tic_tac_toeTests.swift */; };
 		E5EEDA301EB6768900881394 /* minimalist_tic_tac_toeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5EEDA2F1EB6768900881394 /* minimalist_tic_tac_toeUITests.swift */; };
+		E5EEDA401EB679AF00881394 /* Board.png in Resources */ = {isa = PBXBuildFile; fileRef = E5EEDA3D1EB679AF00881394 /* Board.png */; };
+		E5EEDA411EB679AF00881394 /* Cross.png in Resources */ = {isa = PBXBuildFile; fileRef = E5EEDA3E1EB679AF00881394 /* Cross.png */; };
+		E5EEDA421EB679AF00881394 /* Nought.png in Resources */ = {isa = PBXBuildFile; fileRef = E5EEDA3F1EB679AF00881394 /* Nought.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,9 @@
 		E5EEDA2B1EB6768900881394 /* minimalist tic-tac-toeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "minimalist tic-tac-toeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E5EEDA2F1EB6768900881394 /* minimalist_tic_tac_toeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = minimalist_tic_tac_toeUITests.swift; sourceTree = "<group>"; };
 		E5EEDA311EB6768900881394 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E5EEDA3D1EB679AF00881394 /* Board.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Board.png; sourceTree = "<group>"; };
+		E5EEDA3E1EB679AF00881394 /* Cross.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Cross.png; sourceTree = "<group>"; };
+		E5EEDA3F1EB679AF00881394 /* Nought.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Nought.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +103,9 @@
 		E5EEDA0E1EB6768900881394 /* minimalist tic-tac-toe */ = {
 			isa = PBXGroup;
 			children = (
+				E5EEDA3D1EB679AF00881394 /* Board.png */,
+				E5EEDA3E1EB679AF00881394 /* Cross.png */,
+				E5EEDA3F1EB679AF00881394 /* Nought.png */,
 				E5EEDA0F1EB6768900881394 /* AppDelegate.swift */,
 				E5EEDA111EB6768900881394 /* ViewController.swift */,
 				E5EEDA131EB6768900881394 /* Main.storyboard */,
@@ -235,7 +244,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E5EEDA421EB679AF00881394 /* Nought.png in Resources */,
+				E5EEDA401EB679AF00881394 /* Board.png in Resources */,
 				E5EEDA1A1EB6768900881394 /* LaunchScreen.storyboard in Resources */,
+				E5EEDA411EB679AF00881394 /* Cross.png in Resources */,
 				E5EEDA171EB6768900881394 /* Assets.xcassets in Resources */,
 				E5EEDA151EB6768900881394 /* Main.storyboard in Resources */,
 			);
